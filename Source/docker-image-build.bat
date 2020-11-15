@@ -1,4 +1,3 @@
-SET PATH=%PATH%;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin
-SET IMAGE_NAME=gcr.io/handle-books/gpymicro-image:%BUILD_NUMBER%
-cd c:\skillvelocity\courses\NU\Cloud\devops\PyMicroservices\Source
+SET IMAGE_NAME=gcr.io/bookstore-321/gpymicro-image:%BUILD_NUMBER%
+cd C:\Users\ACER\Downloads\Cloud Technologies\PyMicroservices-master\Source
 gcloud builds submit --tag %IMAGE_NAME% .

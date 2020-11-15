@@ -1,3 +1,2 @@
-SET PATH=%PATH%;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin
-git pull "https://github.com/nagenn/PyMicroservices"
-gcloud auth activate-service-account jenkins@handle-books.iam.gserviceaccount.com --key-file=c:\Users\nvmur\Downloads\handle-books-2a419c24f2ac.json --project=handle-books
+git pull "https://github.com/Arnav-Hazra/Cloud-MicroServices"
+gcloud auth activate-service-account jenkins-gcp@bookstore-321.iam.gserviceaccount.com --key-file=C:\Users\ACER\Downloads\Cloud Technologies\bookstore-321-0294e40762a9.json --project=bookstore-321
